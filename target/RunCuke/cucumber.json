@@ -1,0 +1,541 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 17899244800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User should choose descending order for displaying products",
+        "description": "",
+        "id": "desktop-test;user-should-choose-descending-order-for-displaying-products",
+        "after": [
+          {
+            "result": {
+              "duration": 942968700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 129146300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on homepage",
+            "match": {
+              "location": "TopMenuSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 245953500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Desktops",
+            "match": {
+              "location": "TopMenuSteps.iClickOnDesktops()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4257440200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I choose show all desktops",
+            "match": {
+              "location": "TopMenuSteps.iChooseShowAllDesktops()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 519374200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I choose sort by name : Z to A",
+            "match": {
+              "location": "DesktopPageSteps.iChooseSortByNameZToA()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 322727300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should see products in descending order",
+            "match": {
+              "location": "DesktopPageSteps.iShouldSeeProductsInDescendingOrder()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@sanity"
+          },
+          {
+            "line": 4,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Desktop Test",
+    "description": "As a user I want to check all Desktop features on page",
+    "id": "desktop-test",
+    "keyword": "Feature",
+    "uri": "desktop.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "I am on homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13722478400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "User should arrange product in price high to low order successfully",
+        "description": "",
+        "id": "laptop-and-notebook-test;user-should-arrange-product-in-price-high-to-low-order-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 814677400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 159215000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I mouse hover and click on laptop and notebook tab",
+            "match": {
+              "location": "LaptopsAndNotebooksPageSteps.iMouseHoverAndClickOnLaptopAndNotebookTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1548965600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on show all laptop and notebook",
+            "match": {
+              "location": "LaptopsAndNotebooksPageSteps.iClickOnShowAllLaptopAndNotebook()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 122865500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on sort by position",
+            "match": {
+              "location": "LaptopsAndNotebooksPageSteps.iClickOnSortByPosition()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 703381000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I select product sort by \"Price (High \u003e Low)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Price (High \u003e Low)",
+                  "offset": 26
+                }
+              ],
+              "location": "LaptopsAndNotebooksPageSteps.iSelectProductSortBy(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 263183800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should see product arrange in price high to low order successfully",
+            "match": {
+              "location": "LaptopsAndNotebooksPageSteps.iShouldSeeProductArrangeInPriceHighToLowOrderSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@sanity"
+          },
+          {
+            "line": 7,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Laptop And Notebook Test",
+    "description": "\r\nAs a user I want to check functionality of laptop and notebook page",
+    "id": "laptop-and-notebook-test",
+    "keyword": "Feature",
+    "uri": "laptopsandnotebooks.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "I am on homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 17053489400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User should navigate to login page successfully",
+        "description": "",
+        "id": "login-test;user-should-navigate-to-login-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 765440500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 73807000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on my account link",
+            "match": {
+              "location": "AccountRegisterPageSteps.iClickOnMyAccountLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2295722800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I select \"Login\" option from my account options",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login",
+                  "offset": 10
+                }
+              ],
+              "location": "AccountRegisterPageSteps.iSelectOptionFromMyAccountOptions(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71643200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should navigate to login page successfully",
+            "match": {
+              "location": "AccountLoginPageSteps.iShouldNavigateToLoginPageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@sanity"
+          },
+          {
+            "line": 5,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Login Test",
+    "description": "As a User I want to login into tutorials ninja website",
+    "id": "login-test",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "I am on homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12572660300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "User should navigate to register page successfully",
+        "description": "",
+        "id": "register-page-test;user-should-navigate-to-register-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 639683700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 246918100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on my account link",
+            "match": {
+              "location": "AccountRegisterPageSteps.iClickOnMyAccountLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2336426400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I select \"Register\" option from my account options",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Register",
+                  "offset": 10
+                }
+              ],
+              "location": "AccountRegisterPageSteps.iSelectOptionFromMyAccountOptions(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34839800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should navigate to register page successfully",
+            "match": {
+              "location": "AccountRegisterPageSteps.iShouldNavigateToRegisterPageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@sanity"
+          },
+          {
+            "line": 7,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Register Page Test",
+    "description": "\r\nAs a user i want to do registration into tutorial ninja website",
+    "id": "register-page-test",
+    "keyword": "Feature",
+    "uri": "register.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10352375200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User should navigate to Desktops Page",
+        "description": "",
+        "id": "top-menu-test;user-should-navigate-to-desktops-page",
+        "after": [
+          {
+            "result": {
+              "duration": 747760500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on homepage",
+            "match": {
+              "location": "TopMenuSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 169490400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on Desktops",
+            "match": {
+              "location": "TopMenuSteps.iClickOnDesktops()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2459974800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I choose show all desktops",
+            "match": {
+              "location": "TopMenuSteps.iChooseShowAllDesktops()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27592100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should navigate to desktops successfully",
+            "match": {
+              "location": "TopMenuSteps.iShouldNavigateToDesktopsSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@sanity"
+          },
+          {
+            "line": 4,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Top Menu Test",
+    "description": "As a user I want to check all top menu tabs redirecting relevant pages",
+    "id": "top-menu-test",
+    "keyword": "Feature",
+    "uri": "topmenu.feature"
+  }
+]
